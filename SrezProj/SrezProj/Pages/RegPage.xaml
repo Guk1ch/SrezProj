@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SrezProj.Pages.RegPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Регистрация" FontSize="Medium" VerticalOptions="Start" HorizontalOptions="Center"/>
+            <StackLayout>
+                <Entry x:Name="fio_entr" Placeholder="ФИО"/>
+                <Entry x:Name="entr_log" Placeholder="Login"/>
+                <Entry x:Name="entr_pass" IsPassword="True" Placeholder="Password"/>
+                <Button x:Name="reg_btn" Text="Зарегистрироваться" Clicked="reg_btn_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

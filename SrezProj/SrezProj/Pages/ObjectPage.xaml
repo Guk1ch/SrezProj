@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SrezProj.Pages.ObjectPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Штука"
+                VerticalOptions="Start" 
+                HorizontalOptions="Center" />
+            <StackLayout>
+                <Entry x:Name="Name_entr" Placeholder="Имя штуки"/>
+                <Entry x:Name="Disk_entr" Placeholder="Описание шутки"/>
+                <DatePicker x:Name="date_dp"/>
+                <Button x:Name="Save_btn" Text="Сохранить" Clicked="Save_btn_Clicked"/>
+                <Button x:Name="Del_btn" Text="Удалить" Clicked="Del_btn_Clicked"
+            </StackLayout>
+        </StackLayout>
+       
+    </ContentPage.Content>
+</ContentPage>
