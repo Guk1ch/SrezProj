@@ -22,5 +22,15 @@ namespace SrezProj.Pages
         {
             await Navigation.PushAsync(new ObjectPage());
         }
+
+        async private void test_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ObjectPage());
+        }
+
+         async private void Add_btn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ObjectPage());
+        }
     }
 }

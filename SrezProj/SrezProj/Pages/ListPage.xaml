@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Какие-то штуки" FontSize="Medium" VerticalOptions="Start" HorizontalOptions="Center" />
+            <Button x:Name="test" Text="Тестовое открытие страницы" Clicked="test_Clicked"/>
             <ListView  ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -12,6 +13,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Button x:Name="Add_btn" Text="Добавление" Clicked="Add_btn_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
